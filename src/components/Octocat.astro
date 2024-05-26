@@ -5,13 +5,17 @@
 interface Props {
   repo: string;
   label?: string;
+  class?: string;
 }
 
-const { repo, label = "fork me on GitHub" } = Astro.props;
+const { repo, label = "fork me on GitHub", class: className } = Astro.props;
 ---
 
 <a
-  class="octocat-anchor absolute right-0 top-0 border-0"
+  class:list={[
+    "octocat-anchor absolute right-0 top-0 z-10 border-0",
+    className,
+  ]}
   href={repo}
   aria-label={label}
   target="_blank"
