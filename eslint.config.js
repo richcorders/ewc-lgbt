@@ -35,6 +35,7 @@ export default tseslint.config(
     files: ["**/env.d.ts"],
     rules: {
       "unicorn/prevent-abbreviations": "off",
+      "@typescript-eslint/triple-slash-reference": "off",
     },
   },
 );

@@ -1,11 +1,11 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: richcord-discord-bot
+Upstream-Name: ewc-lgbt
 Upstream-Contact: winston <hey@winston.sh>
-Source: https://github.com/richcorders/esc-lgbt
+Source: https://github.com/richcorders/ewc-lgbt
 
-# no claim to lockfiles & root package.json
 Files:
   *.lock
   package.json
+  src/env.d.ts
 Copyright: 2024 winston <hey@winston.sh>
 License: CC0-1.0
