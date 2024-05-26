@@ -12,10 +12,10 @@ export default tseslint.config(
   ...eslintPluginAstro.configs.recommended,
   ...eslintPluginAstro.configs["jsx-a11y-recommended"],
   eslintPluginUnicorn.configs["flat/recommended"],
+  { rules: { "unicorn/filename-case": "off" } },
   {
     files: ["**/*.astro"],
     rules: {
-      "unicorn/filename-case": "off",
       "unicorn/text-encoding-identifier-case": "off",
       "unicorn/prevent-abbreviations": [
         "error",
