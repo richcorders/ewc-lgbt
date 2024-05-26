@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 winston <hey@winston.sh>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 {
   pkgs,
   lib,
@@ -16,6 +20,8 @@
       install.enable = true;
     };
   };
+
+  packages = [pkgs.reuse];
 
   stdenv = pkgs.stdenvNoCC;
 }

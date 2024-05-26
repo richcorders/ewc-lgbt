@@ -1,4 +1,9 @@
+// SPDX-FileCopyrightText: 2024 winston <hey@winston.sh>
+//
+// SPDX-License-Identifier: CC0-1.0
 {
-  "recommendations": ["astro-build.astro-vscode"],
+  "recommendations": [
+    "astro-build.astro-vscode"
+  ],
   "unwantedRecommendations": []
 }

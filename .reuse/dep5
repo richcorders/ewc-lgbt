@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: richcord-discord-bot
+Upstream-Contact: winston <hey@winston.sh>
+Source: https://github.com/richcorders/esc-lgbt
+
+# no claim to lockfiles & root package.json
+Files:
+  *.lock
+  package.json
+Copyright: 2024 winston <hey@winston.sh>
+License: CC0-1.0

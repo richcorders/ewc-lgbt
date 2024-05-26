@@ -1,2 +1,5 @@
 #!/usr/bin/env sh
+# SPDX-FileCopyrightText: 2024 winston <hey@winston.sh>
+#
+# SPDX-License-Identifier: CC0-1.0
 yarn lint-staged

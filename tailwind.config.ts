@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 winston <hey@winston.sh>
+//
+// SPDX-License-Identifier: MIT
+
 import type { Config } from "tailwindcss";
 
 export default {
