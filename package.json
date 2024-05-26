@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "husky"
   },
   "devDependencies": {
     "@astrojs/check": "^0.7.0",
@@ -23,12 +24,20 @@
     "eslint-plugin-astro": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-unicorn": "^53.0.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.10.0"
+  },
+  "lint-staged": {
+    "*.{astro,ts,js,jsx,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "prettier": {
     "plugins": [
