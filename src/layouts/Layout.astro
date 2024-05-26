@@ -48,3 +48,15 @@ const title = Astro.props.title
     }, 3000);
   });
 </script>
+
+<style is:global>
+  :root {
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+    }
+  }
+</style>
