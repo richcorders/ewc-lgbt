@@ -6,12 +6,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@constants": [
-        "./constants.ts"
-      ]
+      "@/*": ["./src/*"],
+      "@constants": ["./constants.ts"]
     }
   }
 }
