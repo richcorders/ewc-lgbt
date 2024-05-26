@@ -3119,31 +3119,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esc-lgbt@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "esc-lgbt@workspace:."
-  dependencies:
-    "@astrojs/check": "npm:^0.7.0"
-    "@astrojs/tailwind": "npm:^5.1.0"
-    "@eslint/js": "npm:^9.3.0"
-    "@types/eslint__js": "npm:^8.42.3"
-    "@typescript-eslint/parser": "npm:^7.10.0"
-    astro: "npm:^4.9.1"
-    eslint: "npm:8"
-    eslint-plugin-astro: "npm:^1.2.0"
-    eslint-plugin-jsx-a11y: "npm:^6.8.0"
-    eslint-plugin-unicorn: "npm:^53.0.0"
-    husky: "npm:^9.0.11"
-    lint-staged: "npm:^15.2.5"
-    prettier: "npm:^3.2.5"
-    prettier-plugin-astro: "npm:^0.14.0"
-    prettier-plugin-tailwindcss: "npm:^0.5.14"
-    tailwindcss: "npm:^3.4.3"
-    typescript: "npm:^5.4.5"
-    typescript-eslint: "npm:^7.10.0"
-  languageName: unknown
-  linkType: soft
-
 "escalade@npm:^3.1.1, escalade@npm:^3.1.2":
   version: 3.1.2
   resolution: "escalade@npm:3.1.2"
@@ -3414,6 +3389,31 @@ __metadata:
   checksum: 10c0/4ba5c00c506e6c786b4d6262cfbce90ddc14c10d4667e5c83ae993c9de88aa856033994dd2b35b83e8dc1170e224e66a319fa80adc4c32adcd2379bbc75da814
   languageName: node
   linkType: hard
+
+"ewc-lgbt@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "ewc-lgbt@workspace:."
+  dependencies:
+    "@astrojs/check": "npm:^0.7.0"
+    "@astrojs/tailwind": "npm:^5.1.0"
+    "@eslint/js": "npm:^9.3.0"
+    "@types/eslint__js": "npm:^8.42.3"
+    "@typescript-eslint/parser": "npm:^7.10.0"
+    astro: "npm:^4.9.1"
+    eslint: "npm:8"
+    eslint-plugin-astro: "npm:^1.2.0"
+    eslint-plugin-jsx-a11y: "npm:^6.8.0"
+    eslint-plugin-unicorn: "npm:^53.0.0"
+    husky: "npm:^9.0.11"
+    lint-staged: "npm:^15.2.5"
+    prettier: "npm:^3.2.5"
+    prettier-plugin-astro: "npm:^0.14.0"
+    prettier-plugin-tailwindcss: "npm:^0.5.14"
+    tailwindcss: "npm:^3.4.3"
+    typescript: "npm:^5.4.5"
+    typescript-eslint: "npm:^7.10.0"
+  languageName: unknown
+  linkType: soft
 
 "execa@npm:^8.0.1, execa@npm:~8.0.1":
   version: 8.0.1

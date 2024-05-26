@@ -2,5 +2,5 @@
 //
 // SPDX-License-Identifier: MIT
 
-export const PAGE_TITLE = "esc.lgbt";
-export const REPO_URL = "https://github.com/richcorders/eswc-lgbt";
+export const PAGE_TITLE = "ewc.lgbt";
+export const REPO_URL = "https://github.com/richcorders/ewc-lgbt";
